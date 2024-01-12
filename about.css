@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto' , sans-serif;
+}
+
+
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    margin-left: -70px; /* Adjusted margin to move the logo more to the side */
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.profile-pic {
+    width: 350px;
+    border-radius: 50%;
+    background: #009688;
+    padding: 6px;
+    margin-top: 40px;
+    border: 2px solid #009688;
+    align-items:center;
+}
+.about{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    
+}
+.about-content{
+    max-width: 700px;
+  padding-left: 50px;
+
+}
+
+.about-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: Arial, sans-serif;
+}
+.about-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.about-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0 40px;
+    font-family:Cursive;
+}
+.about-img{
+    padding-left: 150px;
+
+
+}
+span{
+    color: #009688;
+}
+
+
+.content{
+    background-color: #7a777d;
+    margin-top: -10px;
+
+
+}
+.slides {
+    width: auto;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: #fff;
+    
+    scroll-snap-align: start;
+}
+
+
+.slides img {
+    width: 350px;
+}
+
+.slides h1 {
+    font-size: 80px; /* Increased font size */
+    font-weight: 600;
+    max-width: 650px;
+    color: #009688;
+}
+
+.slide1 {
+    background: linear-gradient(454deg, #232424, #b1b1b1);
+    
+}
+
+.slide2 {
+    background: linear-gradient(454deg, #bebebf, #2c2c2c);
+    
+}
+
+.slide3 {
+    background: linear-gradient(454deg, #434343, #5e5e5e, #272727 );
+   
+}
+.col {
+    flex-basis: 50%;
+    padding-left: 70px;
+}
+.col1{
+    margin-left: -10%;
+    flex-basis: 50%;
+}
+.col2{
+    flex-basis: 50%;
+}
+.content {
+    flex-basis: 50%;
+}
+
+.card {
+    width: 150px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    color: black;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+.card1{
+    background-image: url(prog.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+.card2{
+    background-image: url(run.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.card3{
+    background-image: url(guitar.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.card4{
+    background-image: url(crit.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+.card5{
+    background-image: url(crea.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.card6{
+    background-image: url(comu.png);
+    background-position: center;
+    background-size: cover;
+}
+.card11{
+    background-image: url(compg.jpg);
+    width: 180px;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.card22{
+    background-image: url(sleep.jpg);
+    width: 180px;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.card33{
+    background-image: url(cooking.jpg);
+    width: 180px;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.card44{
+    background-image: url(gamedev.png);
+    width: 220px;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.card55{
+    background-image: url(cybersecu.png);
+    width: 220px;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
